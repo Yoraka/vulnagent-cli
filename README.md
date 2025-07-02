@@ -138,9 +138,6 @@ CLI 会在 `~/.config/agno-cli/settings.json` (Linux/macOS) 或对应的用户�
 
 这些配置使得您在后续运行命令时不必每次都指定路径。
 
-## 开发与贡献
-
-(TODO: 添加关于如何为此 CLI 开发和贡献的说明)
 
 ## 注意事项
 
@@ -149,6 +146,5 @@ CLI 会在 `~/.config/agno-cli/settings.json` (Linux/macOS) 或对应的用户�
 -   **错误处理**: CLI 包含了基本的错误捕获和提示，但如果遇到未预期的问题，请检查终端输出获取详细信息。
 
 ## 许可证
-
-(TODO: 添加许可证信息，例如 MIT)
+MIT
 ```
