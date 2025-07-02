@@ -26,7 +26,7 @@
 
 - Python 3.7+ (以及 pip)
 - Node.js (以及 npm/npx)
-- Docker Desktop (需要正在运行)
+- Docker Desktop (或任意 Docker 客户端，都需要正在运行)
 - Git
 
 您可以通过 `agno-cli check-env` 命令检查这些依赖项。
@@ -43,13 +43,7 @@
     python agno_cli.py --help
     ```
     或者，您可以赋予其执行权限 (`chmod +x agno_cli.py`) 并将其放在 PATH 中的某个目录（或为其创建符号链接），以便像普通命令一样调用 (例如 `agno-cli --help`)。
-
-### (未来) 通过 pip 安装 (如果打包)
-
-```bash
-pip install agno-cli
-```
-(注意: 这只是一个示例，实际包名和发布方式可能不同。)
+    
 
 ## 使用方法
 
